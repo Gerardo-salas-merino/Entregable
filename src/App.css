@@ -1,0 +1,34 @@
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    padding: 15px;
+    color: #fdfdfd;
+    background-size: cover;
+    font-family: 'DS-Digital', sans-serif;
+}
+
+.bg1{
+    background-image: url(../public/media/img1.jpg);
+}
+
+.bg2{
+    background-image: url(../public/media/img2.jpg);
+}
+
+.bg3{
+    background-image: url(../public/media/img6.jpg);
+}
+
+.bg4{
+    background-image: url(../public/media/img3.jpg);
+}
+
+.bg5{
+    background-image: url(../public/media/img4.jpg);
+}
+
+
+

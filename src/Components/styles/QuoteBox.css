@@ -1,0 +1,73 @@
+.quotebox{
+    max-width: 400px;
+    display: grid;
+    gap: 30px;
+    justify-items: center;
+}
+
+.quotebox__author{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    position: absolute; /* Permite superponer el span sobre la imagen */
+  
+}
+
+
+
+
+.quotebox__title{
+    color: #fff;
+    text-align: center;
+    text-shadow: 0px 4px 6px #9F84C5;
+    font-family: 'Digital Numbers';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.quotebox__box{
+    display: flex;
+    padding: 70px 33px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 39px;
+    background: linear-gradient(180deg, #fff 0%, rgba(255, 255, 255, 0.33) 100%);
+    color: #25063F;
+}
+.quotebox__box p{
+    color: #25063F;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.quotebox__btn{
+    width: 60px;
+    height: 61px;
+    background: none;
+    cursor: pointer;
+    border: none;
+}
+.quotebox__btn img{
+    height: 3.5rem;
+    width: 3.5rem;
+}
+.quoteimg{
+    width: 518.16px;
+    height: 517.92px;
+    flex-shrink: 0;
+    background: url(<path-to-image>), lightgray 0px 0px / 100% 100% no-repeat;
+}
+
+.quote__boximg img{
+    width: 585.727px;
+    height: 584.797px;
+    flex-shrink: 0;
+    background: url(<path-to-image>), lightgray 0px 0px / 100% 100% no-repeat;
+}
+
